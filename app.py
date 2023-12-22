@@ -8,7 +8,7 @@ def index():
 def hello():
     return 'Hello, World!'
 
-@app.route('/projects/')
+@app.route('/projects')
 def projects():
     return 'The project page'
 
